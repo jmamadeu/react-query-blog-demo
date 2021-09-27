@@ -27,3 +27,5 @@ It's an example repo that show show to go from a simple hook-based application t
 ## Why Next.js?
 
 [Read This 😁](https://gist.github.com/tannerlinsley/65ac1f0175d79d19762cf06650707830)
+
+Co-develop by: jmamadeu
