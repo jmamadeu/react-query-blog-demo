@@ -1,8 +1,12 @@
 import React from 'react'
 import { Loader } from './styled'
 
+import { useIsFetching } from 'react-query'
+
 export default function GlobalLoader() {
-  return (
+  const isFetching = useIsFetching()
+
+  return isFetching ? (
     <Loader
       css={`
         position: absolute;
@@ -15,5 +19,5 @@ export default function GlobalLoader() {
         opacity: 1,
       }}
     />
-  )
+  ) : null
 }
